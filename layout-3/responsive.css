@@ -1,0 +1,38 @@
+
+@media (max-width:606px){
+    #content{
+        flex-direction: column;
+    }
+
+    #showing{
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    
+    #aside ul{
+        display: flex;
+        flex-flow: row wrap;
+
+        justify-content: space-between;
+    }
+    #aside ul a{
+        flex-grow: 1;
+        
+        margin: 5px 5px;
+    }
+}
+
+@media (max-width:715px){
+    #header .logo{
+        text-align: center;
+    }
+}
+
+@media (max-width:536px){
+    #footer .logo h1{
+        text-align: center;
+    }
+    #footer #credits{
+        text-align: center;
+    }
+}

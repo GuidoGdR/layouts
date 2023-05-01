@@ -1,0 +1,44 @@
+
+@media (max-width:718px){
+    #header{
+
+        grid-template-columns: 1fr;
+    }
+    .logo{
+        text-align: center;
+    }
+
+    #content{
+        grid-template-columns: 1fr;
+    }
+
+    #aside ul{
+        display: grid;
+        
+        grid-template-columns: repeat(2, 1fr);
+
+        grid-gap: 20px;
+    
+    }
+    #aside a{
+        margin: 0px;
+    }
+
+    #content #showing{
+        grid-gap: 0px;
+        justify-content: center;
+
+        margin-top: 40px;
+    }
+
+    #content #showing{
+        margin-left: 20px;
+    }
+
+    #footer{
+        grid-template-columns: 1fr;
+    }
+    #footer #credits{
+        text-align: center;
+    } 
+}
